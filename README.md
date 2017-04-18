@@ -10,3 +10,11 @@
 - 7.companyId_int:company.
 - 8.area_varchar(40):place.
 - 9.telephoneNumber_varchar(20):phoneNumber.
+- 10.email_varchar(40):email
+### demands
+- 1.people can register by email.
+- 2.people can register by telephoneNumber.
+- 3.people can register by wchat.
+##　note module
+### note attributes
+
