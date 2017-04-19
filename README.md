@@ -17,4 +17,13 @@
 - 3.people can register by wchat.
 ##　note module
 ### note attributes
+- id_int:primary key ,auto-increment.
+- asid-int:basic unit of a note.
+- chapter_varchar(100): the name of the chapter.
+- content_text:the main content of the note,written by markdown.
+- creatorID_int:autocomplete with  current user.
+- creatorTime_varchar(40):autocomplete with current date.
+### demands
+- 1.用户可以通过前端创建note，在后台则创建一个note表。创建完表之后，用户可以增加章，如果有节，则在章的基础上增加小节.
+
 
